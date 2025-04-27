@@ -1,0 +1,20 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/vishakh/ros2_ws/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages",
+        "/home/vishakh/ros2_ws/build/zed_obj_subscriber",
+        "/home/vishakh/ros2_ws/install/zed_obj_subscriber/lib/python3.10/site-packages",
+        "/home/vishakh/ros2_ws/install/gesture_recognition/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages",
+        "/usr/local/zed/lib/python3.10"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/vishakh/ros2_ws/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages",
+        "/home/vishakh/ros2_ws/build/zed_obj_subscriber",
+        "/home/vishakh/ros2_ws/install/zed_obj_subscriber/lib/python3.10/site-packages",
+        "/home/vishakh/ros2_ws/install/gesture_recognition/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages",
+        "/usr/local/zed/lib/python3.10"
+    ]
+}
