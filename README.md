@@ -21,7 +21,7 @@ This repository provides a complete real-time gesture recognition system using t
 ### 1. Setup Environment
 
 
-- Get ROS2 Desktop Full and Visual Studio Code: [Shell script UNA ROS2 and VS Code:](https://git.faps.uni-erlangen.de/robotik-public/una-unified-arbeits-umgebung/shell-script-una-ros2-and-vs-code-basic-install)
+- Get ROS2 Desktop Full and Visual Studio Code: [Shell script UNA ROS2 and VS Code](https://git.faps.uni-erlangen.de/robotik-public/una-unified-arbeits-umgebung/shell-script-una-ros2-and-vs-code-basic-install)
 
 ```bash
 echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
