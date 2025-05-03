@@ -21,7 +21,7 @@ This repository provides a complete real-time gesture recognition system using t
 ### 1. Setup Environment
 
 
-- Get ROS2 Desktop Full and Visual Studio Code:[Shell script UNA ROS2 and VS Code:](https://git.faps.uni-erlangen.de/robotik-public/una-unified-arbeits-umgebung/shell-script-una-ros2-and-vs-code-basic-install)
+- Get ROS2 Desktop Full and Visual Studio Code: [Shell script UNA ROS2 and VS Code:](https://git.faps.uni-erlangen.de/robotik-public/una-unified-arbeits-umgebung/shell-script-una-ros2-and-vs-code-basic-install)
 
 ```bash
 echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
@@ -32,7 +32,7 @@ source ~/.bashrc
 
 ### 2. Install ZED SDK and ROS2 Wrapper(Source: https://www.stereolabs.com/docs)
 
-- Install the ZED Python API: [https://www.stereolabs.com/docs/app-development/python/install](https://www.stereolabs.com/docs/app-development/python/install)
+- Install the ZED Python API: [ZED Python](https://www.stereolabs.com/docs/app-development/python/install)
 
 Getting Started #
 
@@ -92,7 +92,7 @@ source ~/.bashrc
 
 ```bash
 cd ~/ros2_ws/src
-git clone https://git.faps.uni-erlangen.de/jahartmann/ma-vishakh.git
+git clone https://github.com/cvishakh/gesture_classification_zed2i.git
 cd ~/ros2_ws
 colcon build --symlink-install
 source install/setup.bash
@@ -202,4 +202,4 @@ More documentations and info:
 - ROS 2 Humble Tutorial:[Get start with ROS2](https://docs.ros.org/en/humble/Tutorials.html)
 
 
-> For contributions or issues, submit a merge request on [GitLab](https://git.faps.uni-erlangen.de/jahartmann/ma-vishakh/).
+> For contributions or issues, submit a merge request on [GitHub](https://github.com/cvishakh/gesture_classification_zed2i.git).
