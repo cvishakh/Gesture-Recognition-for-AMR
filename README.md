@@ -202,6 +202,6 @@ More documentations and info:
 - ROS 2 Humble Tutorial: [Get start with ROS2](https://docs.ros.org/en/humble/Tutorials.html)
 
 
-> For contributions or issues, submit a merge request on [GitHub](https://github.com/cvishakh/gesture_classification_zed2i.git.)
+> For contributions or issues, submit a merge request on [GitHub](https://github.com/cvishakh/gesture_classification_zed2i/)
 ## Keywords
 Gesture recognition, ZED Camera, Human-robot interaction
