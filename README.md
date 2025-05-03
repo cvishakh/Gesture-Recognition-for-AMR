@@ -7,7 +7,7 @@ This repository provides a complete real-time gesture recognition system using t
 ## System Requirements
 
 - Ubuntu 22.04 LTS
-- ROS 2 Humble Hawksbill
+- ROS 2 Humble
 - CUDA (compatible with your GPU)
 - ZED SDK 4.2 or later
 - Python 3.10+
@@ -21,7 +21,7 @@ This repository provides a complete real-time gesture recognition system using t
 ### 1. Setup Environment
 
 
-- Get ROS2 Desktop Full and Visual Studio Code:[Shell script UNA ROS2 and VS Code:](https://git.faps.uni-erlangen.de/robotik-public/una-unified-arbeits-umgebung/shell-script-una-ros2-and-vs-code-basic-install)
+- Get ROS2 Desktop Full and Visual Studio Code: [Shell script UNA ROS2 and VS Code:](https://git.faps.uni-erlangen.de/robotik-public/una-unified-arbeits-umgebung/shell-script-una-ros2-and-vs-code-basic-install)
 
 ```bash
 echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
@@ -32,7 +32,7 @@ source ~/.bashrc
 
 ### 2. Install ZED SDK and ROS2 Wrapper(Source: https://www.stereolabs.com/docs)
 
-- Install the ZED Python API: [https://www.stereolabs.com/docs/app-development/python/install](https://www.stereolabs.com/docs/app-development/python/install)
+- Install the ZED Python API: [ZED Python](https://www.stereolabs.com/docs/app-development/python/install)
 
 Getting Started #
 
@@ -46,7 +46,7 @@ The Python API is a wrapper around the ZED SDK which is written in C++ optimized
     OpenCV Python (optional)
     PyOpenGL (optional)
 
-- ZED SDK (see Installation section): [ZED SDK:](https://www.stereolabs.com/en-de/developers/release)
+- ZED SDK (see Installation section): [ZED SDK](https://www.stereolabs.com/en-de/developers/release)
 
     Make sure to install Python (x64 version) and the pip package manager. Then install the dependencies via pip in a terminal.
 
@@ -66,7 +66,7 @@ py -m pip install cython numpy opencv-python pyopengl
 ## Installing the Python API 
 A Python script is available in the ZED SDK installation folder and can automatically detect your platform, CUDA and Python version and download the corresponding pre-compiled Python API package.
 
-- Install ZED ROS2 Wrapper: [ZED 2i ROS Documentation:](https://www.stereolabs.com/docs/ros2)
+- Install ZED ROS2 Wrapper: [ZED 2i ROS Documentation](https://www.stereolabs.com/docs/ros2)
 
     To install the zed_ros2_wrapper, open a bash terminal, clone the package from GitHub, and build it:
 ```bash
@@ -92,7 +92,7 @@ source ~/.bashrc
 
 ```bash
 cd ~/ros2_ws/src
-git clone https://git.faps.uni-erlangen.de/jahartmann/ma-vishakh.git
+git clone https://github.com/cvishakh/gesture_classification_zed2i.git
 cd ~/ros2_ws
 colcon build --symlink-install
 source install/setup.bash
@@ -192,15 +192,16 @@ ros2 topic echo /pointing_coordinates
 **Vishakh Cheruparambath**  
 - Mail: vishakh.cheruparambath@fau.de 
 - Powered by ROS2 + ZED2i + TensorFlow + Google Mediapipe
-- Supervised by: Jakob Hartmann, MSc
+- Supervised by: Jakob Hartmann, MSc, FAPS LAB Erlangen
 ---
 
 More documentations and info: 
-- KOLAMEeRo Project Overview:[FAPS Website](https://www.faps.fau.de/curforsch/adaptive-und-benutzerfreundliche-kollaboration-von-menschen-und-autonomen-mobilen-robotern-durch-kontinuierlich-lernende-algorithmen/)
-- Google Mediapipe Hand and Pose estimation landmarks:[mediapipe](https://github.com/google-ai-edge/mediapipe/tree/master)
-- Stereolabs ZED 2i Camera:[Get start with ZED](https://www.stereolabs.com/docs/get-started-with-zed)
-- ROS 2 Humble Tutorial:[Get start with ROS2](https://docs.ros.org/en/humble/Tutorials.html)
+- KOLAMEeRo Project Overview: [FAPS Website](https://www.faps.fau.de/curforsch/adaptive-und-benutzerfreundliche-kollaboration-von-menschen-und-autonomen-mobilen-robotern-durch-kontinuierlich-lernende-algorithmen/)
+- Google Mediapipe Hand and Pose estimation landmarks: [Google MediaPipe](https://github.com/google-ai-edge/mediapipe/tree/master)
+- Stereolabs ZED 2i Camera: [Get start with ZED](https://www.stereolabs.com/docs/get-started-with-zed)
+- ROS 2 Humble Tutorial: [Get start with ROS2](https://docs.ros.org/en/humble/Tutorials.html)
 
 
-> For contributions or issues, submit a merge request on [GitLab](https://git.faps.uni-erlangen.de/jahartmann/ma-vishakh/).
-# gesture_classification_zed2i
+> For contributions or issues, submit a merge request on [GitHub](https://github.com/cvishakh/gesture_classification_zed2i.git.)
+## Keywords
+Gesture recognition, ZED Camera, Human-robot interaction
