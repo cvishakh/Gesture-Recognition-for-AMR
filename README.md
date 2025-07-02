@@ -179,6 +179,9 @@ gesture_recognition/
 ├── launch/
 │   └── gesture_system.launch.py
 ├── config/
+├── samples/
+│   ├── Cover_Image.png
+│   └── Gesture_Definition.png
 ├── setup.py
 ├── package.xml
 ```
