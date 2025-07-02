@@ -4,6 +4,22 @@ This repository provides a complete real-time gesture recognition system using t
 
 ---
 
+## 🧠 System Overview
+
+![Project Overview](samples/Cover_Image.png)
+
+> *Architecture showing how the gestures are shown in front of an AMR*
+
+---
+
+## ✋ Supported Gestures Table
+
+![Gesture Table](samples/Gesture_Definition.png)
+
+> *Table of all static and dynamic gestures with their corresponding labels.*
+
+---
+
 ## System Requirements
 
 - Ubuntu 22.04 LTS
