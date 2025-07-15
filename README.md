@@ -1,10 +1,10 @@
-# ROS2 Gesture Recognition System with ZED 2i
+# Vision based Human-Robot Interaction for AMR using ZED 2i
 
 This repository provides a complete real-time gesture recognition system using the **ZED 2i stereo camera** and **ROS 2 Humble**. It supports both static and dynamic gestures using MediaPipe and TensorFlow, and controls a robot based on recognized gestures.
 
 ---
 
-## 🧠 System Overview
+## System Overview
 
 ![Project Overview](samples/Cover_Image.png)
 
@@ -12,7 +12,7 @@ This repository provides a complete real-time gesture recognition system using t
 
 ---
 
-## ✋ Supported Gestures Table
+## Supported Gestures Table
 
 ![Gesture Table](samples/Gesture_Definition.png)
 
@@ -223,4 +223,4 @@ More documentations and info:
 
 > For contributions or issues, submit a merge request on [GitHub](https://github.com/cvishakh/gesture_classification_zed2i/)
 ## Keywords
-Gesture recognition, ZED Camera, Human-robot interaction
+Gesture recognition, ZED Camera, Human-robot interaction, Autonomous Mobile Robot, Intralogistics
