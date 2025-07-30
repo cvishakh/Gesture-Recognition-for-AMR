@@ -217,6 +217,7 @@ gesture_classification_zed2i/
 ├── Gesture_Recognition_for_Enhanced_HRI.pdf  # Research/project documentation
 ├── LICENSE
 ├── README.md
+```
 
 ---
 
