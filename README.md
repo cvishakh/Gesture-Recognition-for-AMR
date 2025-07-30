@@ -166,25 +166,58 @@ This launches:
 
 ---
 
-## Project Overview
+## Object Detection with ZED 2i (Separate Module)
+
+In addition to gesture recognition, this project includes a standalone **object detection module** using the **ZED Python API**.
+
+📄 **Script location**: [`object_detection_zed.py`](./object_detection_zed.py)
+
+### 🔍 What it Does
+
+- Initializes the ZED 2i camera with `HD720` resolution and `PERFORMANCE` depth mode.
+- Enables **multi-class object detection** with support for:
+  - Real-time tracking of objects across frames (`enable_tracking`)
+  - Instance segmentation (`enable_segmentation`)
+- Draws bounding boxes and class labels (with confidence score) on the live camera feed.
+- Displays live feed in an OpenCV window.
+- Objects are accessed through the `sl.Objects()` container with updated metadata.
+
+### 📸 To Run
+
+Ensure your environment has access to the ZED SDK and required Python dependencies:
+
+```bash
+python3 object_detection_zed.py
+
+---
+
+## Object Detection Demo
+
+![ZED 2i Object Detection](samples/Object_detection.png)
+
+> *Sample object detection using ZED 2i showing bounding boxes and class labels.*
+
+
+## Repo Overview
 
 ```text
-gesture_recognition/
-├── gesture_recognition/
-│   ├── gesture_node.py
-│   ├── gesture_robot_controller.py
-│   └── model/
-│       ├── static_gesture_final.keras
-│       └── dynamic_gesture_final.keras
-├── launch/
-│   └── gesture_system.launch.py
-├── config/
-├── samples/
+gesture_classification_zed2i/
+├── dataset/                            # Collected gesture datasets
+├── gesture_recognition/                # Python package with ROS2 nodes
+├── model/                              # Trained models
+├── notebook/                           # Jupyter notebooks for training
+├── samples/                            # Images for demo
 │   ├── Cover_Image.png
+│   ├── Object_detection.png
 │   └── Gesture_Definition.png
-├── setup.py
-├── package.xml
-```
+├── check_cuda.py                             # CUDA availability check
+├── dynamic_dataset_collection.py             # Dynamic gesture data collection script
+├── static_dataset_collection.py              # Static gesture data collection script
+├── object_detection_zed.py                   # ZED 2i object detection module
+├── gesture_recognition.code-workspace        # VS Code workspace
+├── Gesture_Recognition_for_Enhanced_HRI.pdf  # Research/project documentation
+├── LICENSE
+├── README.md
 
 ---
 
