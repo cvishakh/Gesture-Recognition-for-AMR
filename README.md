@@ -188,7 +188,7 @@ Ensure your environment has access to the ZED SDK and required Python dependenci
 
 ```bash
 python3 object_detection_zed.py
-
+```
 
 ## Object Detection Demo
 
